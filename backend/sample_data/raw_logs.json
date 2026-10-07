@@ -1,0 +1,47 @@
+[
+    {
+        "timestamp": "2024-06-01T12:15:00",
+        "source_ip":"192.168.1.105",
+        "username":"alice",
+        "event":"Failed password",
+        "service":"ssh",
+        "source":"linux_ssh",
+        "message":"Failed password for admin from 192.168.1.105"
+    },
+    {
+        "timestamp": "2024-06-01T12:15:03",
+        "source_ip":"192.168.1.105",
+        "username":"alice",
+        "event":"Failed password",
+        "service":"ssh",
+        "source":"linux_ssh",
+        "message":"Failed password for admin from 192.168.1.105"
+    },
+    {
+        "timestamp": "2024-06-01T12:17:15",
+        "source_ip":"192.168.1.25",
+        "username":"bob",
+        "event":"Login successful",
+        "service":"ssh",
+        "source":"linux_ssh",
+        "message":"Login successful for bob from 192.168.1.25"
+    },
+    {
+        "timestamp": "2024-06-01T12:18:40",
+        "source_ip":"10.0.1.105",
+        "username":"alice",
+        "event":"User Login",
+        "service":"web",
+        "source":"web_application",
+        "message":"User admin from logged into web application."
+    },
+    {
+        "timestamp": "2024-06-01T12:21:35",
+        "source_ip":"192.168.1.215",
+        "username":"root",
+        "event":"Privilege escalation",
+        "service":"system",
+        "source":"linux_system",
+        "message":"User root privilege escalation detected."
+    }
+]

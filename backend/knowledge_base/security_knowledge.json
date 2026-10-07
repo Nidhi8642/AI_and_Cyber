@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Brute Force Attack",
+    "category": "authentication",
+    "content": "A brute-force attack occurs when an attacker repeatedly attempts authentication using different passwords or credentials. Multiple authentication failures from the same source IP within a short period can indicate a brute-force attempt. Recommended defensive actions include reviewing authentication logs, validating the source IP, checking whether the account is legitimate, enforcing account lockout or rate limiting where appropriate, and investigating related successful logins."
+  },
+  {
+    "title": "Privilege Escalation",
+    "category": "endpoint_security",
+    "content": "Privilege escalation occurs when a user or process obtains permissions beyond those normally authorized. A privilege escalation event should be investigated by reviewing the affected username, source system, process activity, authentication history, and changes to permissions. The security analyst should determine whether the activity was authorized or potentially malicious."
+  },
+  {
+    "title": "Authentication Failure Investigation",
+    "category": "authentication",
+    "content": "Repeated authentication failures should be investigated for patterns involving source IP addresses, usernames, timestamps, services, and subsequent successful authentication events. A sequence of failures followed by a successful login may require additional investigation."
+  },
+  {
+    "title": "Security Alert Investigation",
+    "category": "incident_response",
+    "content": "When investigating a security alert, analysts should review the alert reason, severity, evidence, affected user, source IP, timestamp, related events, and available contextual security knowledge. The goal is to determine the likely cause, assess risk, identify supporting evidence, and recommend defensive next steps."
+  }
+]
